@@ -2,7 +2,7 @@
   "name": "pofsis_shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/RanniePavillon/Rannie.git",
+  "homepage": "https://ranniepavillon.github.io/Rannie/",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
