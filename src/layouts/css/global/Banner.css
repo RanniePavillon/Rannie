@@ -1,0 +1,81 @@
+.slick-next{
+    display: none !important;
+}
+.slick-prev{
+    display: none !important;
+}
+.slick-dots{
+    bottom: 10px !important;
+}
+.slick-dots li button:before {
+    color: white !important;
+    font-size: 10px !important;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1.75 !important;
+    color: white !important;
+}
+
+.MainBanner{
+    max-width: 100% !important;
+    max-height: 300px !important;
+}
+
+.headBanner{
+    width: 70% !important;
+    margin: 0px 1.5rem 0px 1.5rem !important;
+    height: 250px !important;
+}
+.advertiseBanner{
+    width: 30% !important;
+    margin: 0px 1.5rem 0px 0px !important;
+    height: 250px !important;
+}
+
+
+@media (max-width:1366px){
+    .headBanner{
+        width: 70% !important;
+        margin: 0px 1rem 0px 1.5rem !important;
+    }
+    .advertiseBanner{
+        width: 28% !important;
+        margin: 0px 1rem 0px 0px !important;
+    }
+    
+}
+@media (max-width:1199px){
+    .headBanner{
+        width: 67% !important;
+        margin: 0px 1rem 0px 1.5rem !important;
+    }
+    .advertiseBanner{
+        width: 27% !important;
+        margin: 0px 1rem 0px 0px !important;
+    }
+    
+}
+@media (max-width:991px){
+    .headBanner{
+        width: 65% !important;
+        margin: 0px 1rem 0px 1.5rem !important;
+    }
+    .advertiseBanner{
+        width: 28% !important;
+        margin: 0px 1rem 0px 0px !important;
+    }
+}
+
+
+@media (max-width:767px){
+    .headBanner{
+        width: 100% !important;
+        margin: 5px !important;
+        height: 200px !important;
+    }
+    .advertiseBanner{
+        width: 100% !important;
+        margin: 0px !important;
+        height: 200px !important;
+    }
+}

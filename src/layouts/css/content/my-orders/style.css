@@ -1,0 +1,150 @@
+
+.myOrdersContainer{
+    width: 100%;
+    margin-right:1.5rem;
+    margin-left:1.5rem;
+    height:80vh;
+}
+.my-body-container{
+    max-width: 100%;
+}
+.my-product-details{
+    width: 70%;
+}
+
+.sticky-top-my-order{
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 120px;
+    z-index: 1;
+    height: 110px;
+}
+
+.my-product-scroll{
+    max-height: 200px !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
+
+.my-order-details{
+    width: 30%;
+}
+
+.my-product-image{
+    min-width: 10%;
+}
+.my-product{
+    min-width: 30%;
+    margin: 0px 5px 0px 5px;
+}
+.my-unit-price{
+    min-width: 20%;
+    margin: 0px 5px 0px 5px;
+}
+.my-quantity{
+    min-width: 20%;
+    margin: 0px 5px 0px 5px;
+}
+.my-price{
+    min-width: 20%;
+    margin: 0px 5px 0px 5px;
+}
+
+
+.my-order-scroll{
+    max-height: 730px;
+    overflow-y: scroll;
+    margin:1rem 0px 0px 0px !important;
+}
+
+@media (max-width:1366px){
+    .my-product-details{
+        width: 60%;
+    }
+    .my-order-details{
+        width: 40%;
+    }
+    
+    .my-product-image{
+        min-width: 20%;
+    }
+    .my-product{
+        min-width: 30%;
+    }
+    .my-unit-price{
+        min-width: 15%;
+    }
+    .my-quantity{
+        min-width: 15%;
+    }
+    .my-price{
+        min-width: 15%;
+    }
+    
+    .my-order-scroll{
+        max-height: 500px ;
+    }
+}
+@media (max-width:991px){
+    .my-product-image{
+        min-width: 10%;
+    }
+    .my-unit-price{
+        min-width: 20%;
+    }
+    .my-price{
+        min-width: 20%;
+    }
+}
+@media (max-width:766px){
+    .myOrdersContainer{
+        margin-right:0px;
+        margin-left:0px;
+    }
+    .my-product-details{
+        width: 100%;
+    }
+    .my-order-details{
+        width: 100%;
+        background-color: #f8f9fa !important;
+        margin: 0px !important;
+    }
+    .sticky-top-my-order{
+        top: 60px;
+        z-index: 1;
+        height: 110px;
+    }
+    .my-product{
+        min-width: 30%;
+    }
+    .my-unit-price{
+        min-width: 20%;
+        font-size: 14px !important;
+    }
+    .my-quantity{
+        min-width: 10%;
+        font-size: 14px !important;
+    }
+    .my-price{
+        min-width: 20%;
+        font-size: 14px !important;
+    }
+    .my-order-scroll{
+        max-height: 430px ;
+    }
+}
+
+
+.my-order::-webkit-scrollbar{
+    height: 5px;
+    width: 3px;
+}
+
+.my-order::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.my-order::-webkit-scrollbar-thumb:hover{
+    background-color: #c72c41;
+}
